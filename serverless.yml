@@ -1,0 +1,19 @@
+service: honeybadger-slack-notify
+
+provider:
+  name: aws
+  region: us-east-1
+  runtime: nodejs16.x
+  apiGateway:
+    shouldStartNameWithService: true
+
+
+functions:
+  helloSlack:
+    handler: slackNotifyHandler.sendSlackSpamNotify
+    environment:
+      SLACK_WEBHOOK_URL: ${env:SLACK_WEBHOOK_URL}
+    events:
+      - http:
+          path: /slackSpamNotify
+          method: post

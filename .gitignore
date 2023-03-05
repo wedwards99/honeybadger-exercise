@@ -1,0 +1,15 @@
+# package directories
+node_modules
+
+# Serverless directories
+.serverless
+
+# Test report directories
+coverage
+
+# IDE
+.idea
+
+# files
+zznotes.txt
+.DS_Store
