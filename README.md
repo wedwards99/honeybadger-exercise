@@ -8,7 +8,7 @@ In order to deploy and run this you will require:
 
 1. An AWS account see: https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
 2. NodeJS installed see: https://nodejs.org/en/download/
-3. Serverless framework installed see: https://nodejs.org/en/download/
+3. Serverless framework installed see: https://www.serverless.com/framework/docs/getting-started
 4. A slack webhook URL see: https://api.slack.com/messaging/webhooks
 
 ### Deploying the application
